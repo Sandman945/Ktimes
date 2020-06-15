@@ -1,0 +1,11 @@
+Login_data:
+  test_login_001:
+    phone: "13697399353"
+    password: "123456"
+    expect: "首"
+    screen_name: "输入正确的手机号正确的密码"
+  test_login_002:
+    phone: "13697399353"
+    password: ""
+    expect: "请输入密码"
+    screen_name: "输入的密码为空"

@@ -1,0 +1,140 @@
+{
+  "uid" : "a380a32f932fc7de",
+  "name" : "test_login[args1]",
+  "fullName" : "scripts.test_login.Test_Login_Page#test_login",
+  "historyId" : "c0255cd1a4ef830e5b61f3f005da0aab",
+  "time" : {
+    "start" : 1592219525401,
+    "stop" : 1592219531707,
+    "duration" : 6306
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "登录模块",
+      "time" : {
+        "start" : 1592219525401,
+        "stop" : 1592219531707,
+        "duration" : 6306
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d767881b29f2d77a",
+        "name" : "输入手机号",
+        "source" : "d767881b29f2d77a.attach",
+        "type" : "text/plain",
+        "size" : 17
+      }, {
+        "uid" : "5279102cf3ed0906",
+        "name" : "输入密码",
+        "source" : "5279102cf3ed0906.attach",
+        "type" : "text/plain",
+        "size" : 12
+      }, {
+        "uid" : "4195849463516e89",
+        "name" : "点击登录按钮",
+        "source" : "4195849463516e89.attach",
+        "type" : "text/plain",
+        "size" : 6
+      }, {
+        "uid" : "49ad0817f2c566e5",
+        "name" : "截图",
+        "source" : "49ad0817f2c566e5.png",
+        "type" : "image/png",
+        "size" : 242261
+      } ],
+      "parameters" : [ {
+        "name" : "args",
+        "value" : "{'screen_name': '输入正确的手机号正确的密码', 'expect': '首', 'phone': '13697399353', 'password': '123456'}"
+      } ],
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录功能测试用例"
+  }, {
+    "name" : "feature",
+    "value" : "登录功能"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Login_Page"
+  }, {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "host",
+    "value" : "WIN-68C0TB7LDVA"
+  }, {
+    "name" : "thread",
+    "value" : "3104-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "args",
+    "value" : "{'screen_name': '输入正确的手机号正确的密码', 'expect': '首', 'phone': '13697399353', 'password': '123456'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e00ec7306f439132",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592218749232,
+        "stop" : 1592218755286,
+        "duration" : 6054
+      }
+    }, {
+      "uid" : "f57a01d8bb3fc6e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592218339592,
+        "stop" : 1592218345681,
+        "duration" : 6089
+      }
+    }, {
+      "uid" : "d7ac11cf7ae96ffe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592217725731,
+        "stop" : 1592217732221,
+        "duration" : 6490
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a380a32f932fc7de.json",
+  "parameterValues" : [ "{'screen_name': '输入正确的手机号正确的密码', 'expect': '首', 'phone': '13697399353', 'password': '123456'}" ]
+}

@@ -1,0 +1,41 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "scripts",
+    "children" : [ {
+      "name" : "test_login",
+      "children" : [ {
+        "name" : "Test_Login_Page",
+        "children" : [ {
+          "name" : "test_login[args0]",
+          "uid" : "5982522e525fbb76",
+          "parentUid" : "4e81ff3201efd1e74183d2dd3e66c180",
+          "status" : "passed",
+          "time" : {
+            "start" : 1592219506441,
+            "stop" : 1592219512318,
+            "duration" : 5877
+          },
+          "flaky" : false,
+          "parameters" : [ "{'screen_name': '输入的密码为空', 'expect': '请输入密码', 'phone': '13697399353', 'password': ''}" ]
+        }, {
+          "name" : "test_login[args1]",
+          "uid" : "a380a32f932fc7de",
+          "parentUid" : "4e81ff3201efd1e74183d2dd3e66c180",
+          "status" : "passed",
+          "time" : {
+            "start" : 1592219525401,
+            "stop" : 1592219531707,
+            "duration" : 6306
+          },
+          "flaky" : false,
+          "parameters" : [ "{'screen_name': '输入正确的手机号正确的密码', 'expect': '首', 'phone': '13697399353', 'password': '123456'}" ]
+        } ],
+        "uid" : "4e81ff3201efd1e74183d2dd3e66c180"
+      } ],
+      "uid" : "5308816e98be8877fda327cc882cfe13"
+    } ],
+    "uid" : "af586ea5ffb1b57fad0f98a55a6d147c"
+  } ]
+}

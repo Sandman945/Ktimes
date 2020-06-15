@@ -1,0 +1,33 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "scripts.test_login",
+    "children" : [ {
+      "name" : "test_login[args0]",
+      "uid" : "5982522e525fbb76",
+      "parentUid" : "6d38d5b6e2efe4acae4f0eaed7cfdf95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592219506441,
+        "stop" : 1592219512318,
+        "duration" : 5877
+      },
+      "flaky" : false,
+      "parameters" : [ "{'screen_name': '输入的密码为空', 'expect': '请输入密码', 'phone': '13697399353', 'password': ''}" ]
+    }, {
+      "name" : "test_login[args1]",
+      "uid" : "a380a32f932fc7de",
+      "parentUid" : "6d38d5b6e2efe4acae4f0eaed7cfdf95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592219525401,
+        "stop" : 1592219531707,
+        "duration" : 6306
+      },
+      "flaky" : false,
+      "parameters" : [ "{'screen_name': '输入正确的手机号正确的密码', 'expect': '首', 'phone': '13697399353', 'password': '123456'}" ]
+    } ],
+    "uid" : "scripts.test_login"
+  } ]
+}
